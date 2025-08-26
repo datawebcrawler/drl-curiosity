@@ -1,0 +1,5 @@
+# Rastrear checkpoints de modelo (.zip) com Git LFS
+models/*.zip filter=lfs diff=lfs merge=lfs -text
+
+# Se você salvar arquivos .pt, adicione também
+models/*.pt filter=lfs diff=lfs merge=lfs -text

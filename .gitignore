@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Ambientes Virtuais
+venv/
+.venv/
+env/
+
+# IDE / Editor
+.vscode/
+.idea/
+
+# Logs e Artefatos de Treinamento
+docs/
+backups/
+videos/
+train_dir/
+logs/
+tensorboard_logs/
+wandb/
+runs/
+*.log
+*.csv
+
+# Modelos
+# A pasta `models/` é rastreada com Git LFS, mas podemos ignorar arquivos específicos
+# Se o Git LFS estiver configurado, as regras abaixo podem ser ignoradas.
+# models/
